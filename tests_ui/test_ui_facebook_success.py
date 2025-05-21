@@ -23,7 +23,7 @@ def test_singup_success(setup, name,surname,day,month,year,email,password) -> No
     # ---------------------
 
 
-@pytest.mark.skip
+@pytest.mark.smoke
 def test_singup_success_2(setup) -> None:
     page = setup
 
